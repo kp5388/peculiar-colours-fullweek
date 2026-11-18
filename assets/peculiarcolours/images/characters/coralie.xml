@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="coralie.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="coralie down0000" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0001" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0002" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0003" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0004" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0005" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0006" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0007" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0008" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0009" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0010" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie down0011" x="0" y="0" width="384" height="512"/>
+	<SubTexture name="coralie left0000" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0001" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0002" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0003" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0004" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0005" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0006" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0007" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0008" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0009" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0010" x="384" y="0" width="384" height="512" frameX="0" frameY="0" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie left0011" x="768" y="0" width="384" height="512" frameX="-6" frameY="-6" frameWidth="390" frameHeight="518"/>
+	<SubTexture name="coralie right0000" x="1152" y="0" width="384" height="512" frameX="-32" frameY="-8" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0001" x="1152" y="0" width="384" height="512" frameX="-32" frameY="-8" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0002" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0003" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0004" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0005" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0006" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0007" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0008" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0009" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0010" x="1536" y="0" width="384" height="512" frameX="-20" frameY="0" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie right0011" x="0" y="512" width="384" height="512" frameX="0" frameY="-3" frameWidth="416" frameHeight="520"/>
+	<SubTexture name="coralie up0000" x="384" y="512" width="384" height="512" frameX="-15" frameY="0" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0001" x="384" y="512" width="384" height="512" frameX="-15" frameY="0" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0002" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0003" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0004" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0005" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0006" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0007" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0008" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0009" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0010" x="768" y="512" width="384" height="512" frameX="-23" frameY="-6" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie up0011" x="1152" y="512" width="384" height="512" frameX="0" frameY="-2" frameWidth="407" frameHeight="518"/>
+	<SubTexture name="coralie idle0000" x="1536" y="512" width="394" height="527" frameX="-3" frameY="0" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0001" x="1536" y="512" width="394" height="527" frameX="-3" frameY="0" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0002" x="1536" y="512" width="394" height="527" frameX="-3" frameY="0" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0003" x="0" y="1039" width="394" height="527" frameX="-6" frameY="-3" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0004" x="0" y="1039" width="394" height="527" frameX="-6" frameY="-3" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0005" x="0" y="1039" width="394" height="527" frameX="-6" frameY="-3" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0006" x="394" y="1039" width="394" height="527" frameX="-2" frameY="-5" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0007" x="394" y="1039" width="394" height="527" frameX="-2" frameY="-5" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0008" x="394" y="1039" width="394" height="527" frameX="-2" frameY="-5" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0009" x="394" y="1039" width="394" height="527" frameX="-2" frameY="-5" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0010" x="394" y="1039" width="394" height="527" frameX="-2" frameY="-5" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0011" x="788" y="1039" width="394" height="527" frameX="0" frameY="-1" frameWidth="400" frameHeight="532"/>
+	<SubTexture name="coralie idle0012" x="788" y="1039" width="394" height="527" frameX="0" frameY="-1" frameWidth="400" frameHeight="532"/>
+</TextureAtlas>

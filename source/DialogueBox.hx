@@ -74,17 +74,17 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			case 'consequential':
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-pixel');
+				box.frames = Paths.getSparrowAtlas('dialogueBox-pixel','peculiarcolours');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
 				box.animation.addByIndices('normal', 'Text Box Appear', [4], "", 24);
 			case 'dyspeptic':
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-pixel');
+				box.frames = Paths.getSparrowAtlas('dialogueBox-pixel','peculiarcolours');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
 				box.animation.addByIndices('normal', 'Text Box Appear', [4], "", 24);
-	case 'non compos mentis':
+			case 'non compos mentis':
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-pixel');
+				box.frames = Paths.getSparrowAtlas('dialogueBox-pixel','peculiarcolours');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
 				box.animation.addByIndices('normal', 'Text Box Appear', [4], "", 24);
 		}
@@ -97,7 +97,7 @@ class DialogueBox extends FlxSpriteGroup
 		if(PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'roses' || PlayState.SONG.song.toLowerCase() == 'thorns')
 		{	
 		portraitLeft = new FlxSprite(-20, 40);
-		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
+		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait','week6');
 		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
 		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
 		portraitLeft.updateHitbox();
@@ -106,7 +106,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.visible = false;
 
 		portraitRight = new FlxSprite(0, 40);
-		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
+		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait','week6');
 		portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
 		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.9));
 		portraitRight.updateHitbox();
@@ -128,7 +128,7 @@ class DialogueBox extends FlxSpriteGroup
 		else if (PlayState.SONG.song.toLowerCase() == 'consequential' || PlayState.SONG.song.toLowerCase() == 'dyspeptic' || PlayState.SONG.song.toLowerCase() == 'non compos mentis')
 		{
 		portraitLeft = new FlxSprite(80, 150);
-		portraitLeft.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
+		portraitLeft.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'peculiarcolours');
 		portraitLeft.animation.addByPrefix('enter', 'coralieportraitA', 24, false);
 		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.05));
 		portraitLeft.updateHitbox();
@@ -137,7 +137,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.visible = false;
 
 		portraitLeftB = new FlxSprite(80, 150);
-		portraitLeftB.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
+		portraitLeftB.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'peculiarcolours');
 		portraitLeftB.animation.addByPrefix('enter', 'coralieportraitB', 24, false);
 		portraitLeftB.setGraphicSize(Std.int(portraitLeftB.width * PlayState.daPixelZoom * 0.05));
 		portraitLeftB.updateHitbox();
@@ -146,7 +146,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftB.visible = false;
 
 		portraitLeftC = new FlxSprite(80, 150);
-		portraitLeftC.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
+		portraitLeftC.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'peculiarcolours');
 		portraitLeftC.animation.addByPrefix('enter', 'coralieportraitC', 24, false);
 		portraitLeftC.setGraphicSize(Std.int(portraitLeftC.width * PlayState.daPixelZoom * 0.05));
 		portraitLeftC.updateHitbox();
@@ -155,7 +155,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftC.visible = false;
 
 		portraitLeftD = new FlxSprite(80, 150);
-		portraitLeftD.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
+		portraitLeftD.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'peculiarcolours');
 		portraitLeftD.animation.addByPrefix('enter', 'coralieportraitD', 24, false);
 		portraitLeftD.setGraphicSize(Std.int(portraitLeftD.width * PlayState.daPixelZoom * 0.05));
 		portraitLeftD.updateHitbox();
@@ -164,7 +164,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftD.visible = false;
 
 		portraitLeftE = new FlxSprite(80, 150);
-		portraitLeftE.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
+		portraitLeftE.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'peculiarcolours');
 		portraitLeftE.animation.addByPrefix('enter', 'coralieportraitE', 24, false);
 		portraitLeftE.setGraphicSize(Std.int(portraitLeftE.width * PlayState.daPixelZoom * 0.05));
 		portraitLeftE.updateHitbox();
@@ -173,7 +173,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftE.visible = false;
 
 		portraitLeftnull = new FlxSprite(0, -200);
-		portraitLeftnull.frames = Paths.getSparrowAtlas('portraits/cimage', 'shared');
+		portraitLeftnull.frames = Paths.getSparrowAtlas('portraits/cimage', 'peculiarcolours');
 		portraitLeftnull.animation.addByPrefix('enter', 'cimage1', 24, false);
 		portraitLeftnull.setGraphicSize(Std.int(portraitLeftnull.width * PlayState.daPixelZoom * 0.21));
 		portraitLeftnull.updateHitbox();
@@ -182,7 +182,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftnull.visible = false;
 
 		portraitLeftnull2 = new FlxSprite(0, -200);
-		portraitLeftnull2.frames = Paths.getSparrowAtlas('portraits/cimage', 'shared');
+		portraitLeftnull2.frames = Paths.getSparrowAtlas('portraits/cimage', 'peculiarcolours');
 		portraitLeftnull2.animation.addByPrefix('enter', 'cimage2', 24, false);
 		portraitLeftnull2.setGraphicSize(Std.int(portraitLeftnull2.width * PlayState.daPixelZoom * 0.21));
 		portraitLeftnull2.updateHitbox();
@@ -191,7 +191,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeftnull2.visible = false;
 
 		portraitRight = new FlxSprite(700, 200);
-		portraitRight.frames = Paths.getSparrowAtlas('portraits/BF_Dialogue', 'shared');
+		portraitRight.frames = Paths.getSparrowAtlas('portraits/BF_Dialogue', 'peculiarcolours');
 		portraitRight.animation.addByPrefix('enter', 'BF_Dialogue_A', 24, false);
 		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.15));
 		portraitRight.updateHitbox();
@@ -200,7 +200,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitRight.visible = false;
 
 		portraitRightgf = new FlxSprite(700, 170);
-		portraitRightgf.frames = Paths.getSparrowAtlas('portraits/gfPortrait', 'shared');
+		portraitRightgf.frames = Paths.getSparrowAtlas('portraits/gfPortrait', 'peculiarcolours');
 		portraitRightgf.animation.addByPrefix('enter', 'gfportrait', 24, false);
 		portraitRightgf.setGraphicSize(Std.int(portraitRightgf.width * PlayState.daPixelZoom * 0.15));
 		portraitRightgf.updateHitbox();
@@ -215,7 +215,7 @@ class DialogueBox extends FlxSpriteGroup
 
 		box.screenCenter(X);
 
-		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
+		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox','week6'));
 		add(handSelect);
 		}
 
@@ -246,7 +246,7 @@ class DialogueBox extends FlxSpriteGroup
 
 	override function update(elapsed:Float)
 	{
-		// HARD CODING CUZ IM STUPDI
+		// HARD CODING CUZ IM STUPDI //tf is stupdi? -kp08_ (yes i know its a typo fucker)
 		if (PlayState.SONG.song.toLowerCase() == 'roses')
 			portraitLeft.visible = false;
 		if (PlayState.SONG.song.toLowerCase() == 'thorns')
